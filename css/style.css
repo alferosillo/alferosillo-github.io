@@ -1,12 +1,38 @@
 body{
-    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/4a/62/b9/4a62b9e8209c47dc195ef3f81d038e54--food-patterns-organic-patterns.jpg);
+   background-image: url(http://elitefon.ru/images/201211/elitefon.ru_19541.jpg)
    
 }
 .container{
-border:solid 3px white;
+border:inset 3px white ;
+
+
+ 
 }
 .trabajos{
-    border:solid 3px white;
+    border:solid 3px marron;
     display:inline-block;
-
+    padding: 50px;
+    border-radius: 20%;
+    font-family: fantasy;
+margin-right: 15px;
 }
+.trabajos h3 a:hover{ 
+    background-color: chartreuse;
+}
+h1{
+text-align: center;
+font-family: cursive;
+width: 100%;
+    color:whitesmoke;
+text-shadow: 4px 4px #aad;
+ font-size: 5em;
+}
+h2{
+text-align: center;
+font-family: cursive;
+width: 100%;
+    color:whitesmoke;
+text-shadow: 2px 2px #aad;
+font-size: 3em;
+}
+
