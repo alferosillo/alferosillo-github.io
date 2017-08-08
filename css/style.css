@@ -9,12 +9,14 @@ border:inset 3px white ;
  
 }
 .trabajos{
-    border:solid 3px marron;
+    border:outset 2px chocolate;
+    width: 20%;
+    height: 20%;
     display:inline-block;
     padding: 50px;
-    border-radius: 20%;
+    border-radius: 10%;
     font-family: fantasy;
-margin-right: 15px;
+margin-bottom: 15px;
 }
 .trabajos h3 a:hover{ 
     background-color: chartreuse;
@@ -35,4 +37,29 @@ width: 100%;
 text-shadow: 2px 2px #aad;
 font-size: 3em;
 }
+p{
+color: maroon;
+}
+a{
+   border:inset 3px chocolate;
+}
+
+nav{
+position:fixed;
+    top:0;
+    right:0;
+
+}
+nav ul{
+list-style: none;
+}
+
+nav a{
+background-color:orange;
+color:olivedrab;
+font-size: 40px;
+
+
+}
+
 
