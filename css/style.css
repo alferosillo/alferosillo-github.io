@@ -1,20 +1,19 @@
 body{
-   background-image: url(http://elitefon.ru/images/201211/elitefon.ru_19541.jpg)
+   background-image: url(http://elitefon.ru/images/201211/elitefon.ru_19541.jpg);
    
 }
 .container{
 border:inset 3px white ;
-
+width: 90%;
+margin: 0 auto;
 
  
 }
 .trabajos{
-    border:outset 2px chocolate;
-    width: 20%;
-    height: 20%;
+    border:solid 2px chocolate;
     display:inline-block;
     padding: 50px;
-    border-radius: 10%;
+    border-radius: 5%;
     font-family: fantasy;
 margin-bottom: 15px;
 }
@@ -27,18 +26,18 @@ font-family: cursive;
 width: 100%;
     color:whitesmoke;
 text-shadow: 4px 4px #aad;
- font-size: 5em;
+ font-size: 4em;
 }
-h2{
+h2,h3{
 text-align: center;
 font-family: cursive;
-width: 100%;
-    color:whitesmoke;
+width: 100%;  color:whitesmoke;
 text-shadow: 2px 2px #aad;
-font-size: 3em;
+font-size: 1em;
 }
 p{
-color: maroon;
+color:darkorange;
+text-shadow: 1px 1px #eef;
     
 }
 a{
@@ -62,6 +61,30 @@ font-size: 40px;
 
 
 }
+@media (max-width :470px){
+   h1{
+ font-size: 2em;
+   }
+    .trabajos{
+    border:solid chocolate;
+    display:inline-block;
+    padding: .5em;
+    font-family: fantasy;
+margin-bottom: 10px;
+   }
+  
+}@media (max-width :770px){
+   h1{
+ font-size: 2em;
+   }
+    .trabajos{
+    border:solid chocolate;
+    display:inline-block;
+    padding: .5em;
+    font-family: fantasy;
+margin-bottom: 10px;
+   }
+
 
 
 
